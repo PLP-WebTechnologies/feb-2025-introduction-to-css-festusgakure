@@ -1,0 +1,39 @@
+/* style.css */
+body {
+    font-family: 'Open Sans', sans-serif; /* Different font */
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .main-content {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #featured-image {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border: 5px solid #333;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+  }
+  
+  /* When an image is hovered over, it should have a slight scale up effect */
+  #featured-image img {
+    width: 200px;
+    height: auto;
+    max-width: 100%;
+    transition: transform 0.3s ease;
+  }
+  
+  #featured-image img:hover {
+    transform: scale(1.05);
+  }
